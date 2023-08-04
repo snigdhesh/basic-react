@@ -1,5 +1,6 @@
 import Message from "./Message";
 import Alert from "./components/Alert";
+import CustomButton from "./components/Button";
 import ListGroup from "./components/ListGroup";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   const handleSelectItem = (item: string) => {
     console.log(item);
   };
+
   return (
     <div>
       <ListGroup
@@ -15,7 +17,12 @@ function App() {
         heading="Cities"
         onSelectItem={handleSelectItem}
       />
-      <Alert/>
+
+      <Alert>
+        Hello <span>World</span>
+      </Alert>
+
+      <CustomButton onClick={()=>console.log("click")} color="warning">My Button</CustomButton>
     </div>
   );
 }
