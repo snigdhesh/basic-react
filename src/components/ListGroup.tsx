@@ -39,7 +39,7 @@ function ListGroup({ cities, heading, onSelectItem }: ListGroupProps) {
   Example: const [name, setName] = useState('');*/
 
   return (
-    <>
+    <div className="container">
       <h1>{heading}</h1>
       {cities.length == 0 ? <p>No cities found</p> : null}
       {/*
@@ -66,7 +66,7 @@ function ListGroup({ cities, heading, onSelectItem }: ListGroupProps) {
           </li>
         ))}
       </ul>
-    </>
+    </div>
   );
 }
 
