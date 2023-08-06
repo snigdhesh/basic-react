@@ -1,97 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My HTML project</title>
-</head>
+    <style>
+      div {
+        border: 1px solid black;
+        padding: 20px;
+        margin: 20px;
+      }
+    </style>
+  </head>
 
-<body>
+  <body>
     <h1>Intro to HTML</h1>
 
-    <h2>Checklist:</h2>
-    <p>Images:done</p>
-    <p>attributes:done</p>
-    <p>lists:done</p>
-    <p>tables:done</p>
-    <p>Forms</p>
-    <p>links</p>
-    <p>divisions</p>
-    <p>elements: done</p>
+    <div>
+      <h2>HTML Checklist:</h2>
+      <p>Images:done</p>
+      <p>attributes:done</p>
+      <p>lists:done</p>
+      <p>tables:done</p>
+      <p>Forms: done</p>
+      <p>links: done</p>
+      <p>divisions: done</p>
+      <p>elements: done</p>
+    </div>
 
-    <h2>CSS Checklist:</h2>
-    <p>...</p>
+    <div>
+      <h2>CSS Checklist:</h2>
+      <p>...</p>
+    </div>
 
-    <h2>JS Checklist:</h2>
-    <p>Functions and return statement</p>
-    <p>Lambda functions</p>
-    
-    <hr>
-    <h2>Images:</h2>
-    <img src="assets/dog.jpeg" alt="dog image" width="400" height="200">
+    <div>
+      <h2>JS Checklist:</h2>
+      <p>Functions and return statement</p>
+      <p>Lambda functions</p>
+    </div>
 
-    <hr>
-    <h2>Lists:</h2>
+    <div>
+      <h2>Images:</h2>
+      <img src="assets/dog.jpeg" alt="dog image" width="400" height="200" />
+    </div>
 
-    <ul>
-        <li>Fruits
-            <ol>
-                <li>Oranges</li>
-                <li>Apples</li>
-                <li>Kiwi</li>
-                <li>Banana</li>
-            </ol>
+    <div>
+      <h2>Lists:</h2>
+
+      <ul>
+        <li>
+          Fruits
+          <ol>
+            <li>Oranges</li>
+            <li>Apples</li>
+            <li>Kiwi</li>
+            <li>Banana</li>
+          </ol>
         </li>
-        <li>Vegetables
-            <ol>
-                <li>Tomato</li>
-                <li>Potato</li>
-                <li>Brinjal</li>
-                <li>Okra</li>
-            </ol>
+        <li>
+          Vegetables
+          <ol>
+            <li>Tomato</li>
+            <li>Potato</li>
+            <li>Brinjal</li>
+            <li>Okra</li>
+          </ol>
         </li>
-    </ul>
-    <hr>
-    <h2>Tables</h2>
+      </ul>
+    </div>
 
-    <table border="1">
+    <div>
+      <h2 id="tables">Tables</h2>
+
+      <table border="1">
         <tr>
-            <th>name</th>
-            <th>age</th>
-            <th>dob</th>
+          <th>name</th>
+          <th>age</th>
+          <th>dob</th>
         </tr>
 
         <tr>
-            <td>naga</td>
-            <td>30</td>
-            <td>1992</td>
+          <td>naga</td>
+          <td>30</td>
+          <td>1992</td>
         </tr>
 
         <tr>
-            <td>manasa</td>
-            <td>25</td>
-            <td>1998</td>
-        </tr>        
-    </table>
+          <td>manasa</td>
+          <td>25</td>
+          <td>1998</td>
+        </tr>
+      </table>
+    </div>
 
-    <hr>
-    <h2>Forms</h2>
-    <form action="">
+    <div>
+      <h2>Forms</h2>
+      <form action="">
         <label>Name</label>
-        <input type="text" name="" id="">
-        <br>
+        <input type="text" name="" id="" />
+        <br />
         <label>Email</label>
-        <input type="email" name="" id="">
-        <br>
+        <input type="email" name="" id="" />
+        <br />
         <label>Age</label>
-        <input type="number" name="" id="">
-        <br>
-        <input type="radio" name="gender">Male
-        <input type="radio" name="gender">Female
-        <br>
+        <input type="number" name="" id="" />
+        <br />
+        <label for="">Gender</label>
+        <input type="radio" name="gender" />Male
+        <input type="radio" name="gender" />Female
+        <br />
+        <label for="">Are you graduated?</label>
+        <input type="radio" name="graduationStatus" />Yes
+        <input type="radio" name="graduationStatus" />No
+        <br />
+        <label for="">What courses did you opt?</label>
+        <input type="checkbox" name="" id="" />HTML
+        <input type="checkbox" name="" id="" />CSS
+        <input type="checkbox" name="" id="" />JS
+        <br />
+        <label for="">Which branch?</label>
+        <select name="" id="">
+          <option value="">Select branch</option>
+          <option value="">CIVIL</option>
+          <option value="">MECH</option>
+          <option value="">ECE</option>
+          <option value="">EEE</option>
+          <option value="">CSE</option>
+        </select>
         <button type="submit">Submit</button>
-    </form>
-</body>
+      </form>
+    </div>
 
+    <div>
+      <h2>Links</h2>
+
+      <ol>
+        <li>
+          Jump to specific part within html file <b>Example:</b>
+          <a href="#tables">Tables</a>
+        </li>
+        <li>
+          Link within the directory <b>Example:</b>
+          <a href="review.html">Review</a>
+          <a href="shortcuts.html">Shortcuts</a>
+        </li>
+        <li>
+          External links <b>Example:</b>
+          <a href="https://www.google.com">Google</a>
+          <a href="https://www.fb.com">Facebook</a>
+          <a href="https://www.twitter.com">Twitter</a>
+        </li>
+      </ol>
+    </div>
+  </body>
 </html>

@@ -1,0 +1,36 @@
+#sign-in-form{
+    font-family: Arial, sans-serif;
+    border: 0.60px solid silver;
+    padding: 10px;
+    width: 30%;
+    border-radius: 3px;
+    font-size: 9px;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+input{
+    margin: 3%;
+    width: 150px;
+    height: 15px;
+    font-size: 8px;
+    border: 1px solid silver;
+    border-radius: 3px;
+}
+
+button{
+   width: 50px;
+   height: 20px;
+   font-size: 8px;
+   border-radius: 3px;
+   margin-top: 5%;
+}
+
+#sign-in-btn{
+    background-color:  #4285F4;
+    color: white;
+    border: 0;
+}
