@@ -1,0 +1,17 @@
+command: git status
+description: To check next steps
+
+command: git clone <url>
+description: To take a fresh copy from remote repo
+
+command: git pull
+description: To pull the latest changes from existing remote repo
+
+command: git add .
+description: To add modified files to index (staging area).
+
+command: git commit
+description: To commit modified files from index (staging area).
+
+command: git push
+description: To push your code changes from local repo to remote repo
