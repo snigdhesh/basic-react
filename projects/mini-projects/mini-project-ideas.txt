@@ -1,0 +1,25 @@
+vismai recipie website
+Cellphone bill tracker
+
+************ Test-report generator: Submit following form. **********
+Deployed to: QLAB01 (List of comma saperated environments)
+Does this service has proxy: 
+If 'YES', display following
+    PROXY URLs : 
+    (list of URLs, one per line)
+If 'NO', display following:
+    PCF URLs : 
+    (list of URLs, one per line)
+
+TOKEN_GEN urls: 
+CREDENTIALS: Please reachout to nvadlap1
+
+Swagger (clear water URL): 
+
+Git repo: 
+Git branch: feature/CIA-1790
+
+Architecture dig: Can be found in git repo.
+Sequence dig: Can be found in git repo.
+
+************ Test-report generator: Submit following form. **********
