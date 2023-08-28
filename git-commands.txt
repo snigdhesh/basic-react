@@ -15,3 +15,15 @@ description: To commit modified files from index (staging area).
 
 command: git push
 description: To push your code changes from local repo to remote repo
+
+process 1 (new process) from git (Person 1) 
+remote repo -> git clone url -> local repo -> ide open -> do modifications
+
+process 2 (modified commit) from Person 2 to git
+git add (shows modifications in different colors) - git commit(final step) - git push 
+
+process 3 (grab new updates from Person 1 to my local repo)
+git pull
+
+
+
